@@ -2,7 +2,14 @@
 
 Small python script to follow the stdout from a AWX job. The current state of the web applications output is not that good so i felt this was necessary.
 
-Install the requirements before use.
+
+## Install
+
+```
+pip install git+https://github.com/kradalby/awx-job-tailer.git
+```
+
+## Usage
 
 The script will read your login from `~/.tower_cli.cfg` if available, if not, the login information can be entered as follows:
 
