@@ -4,7 +4,7 @@ Small python script to follow the stdout from a AWX job. The current state of th
 
 Install the requirements before use.
 
-The script will read your login from i`~/.tower_cli.cfg` if available, if not, the login information can be entered as follows:
+The script will read your login from `~/.tower_cli.cfg` if available, if not, the login information can be entered as follows:
 
 ```
 usage: tail.py [-h] [-a ADDRESS] [-u USERNAME] [-p PASSWORD] [-i] job
