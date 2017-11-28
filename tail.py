@@ -115,8 +115,6 @@ if __name__ == '__main__':
         s.auth = (username, password)
         job_event = s.get(get_job_events_url(address, args.job, 1)).json()
 
-        print(dir(s))
-
         for line in loop(s, address, job_event, sys.argv[1]):
             print(line)
     except KeyboardInterrupt:
